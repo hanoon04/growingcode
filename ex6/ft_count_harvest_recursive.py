@@ -1,5 +1,5 @@
 def helper(day: int, current: int = 1) -> None:
-    if current >= day:
+    if current > day:
         print("Harvest time!")
         return
     print(f"Day : {current}")
